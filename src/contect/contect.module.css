@@ -1,0 +1,26 @@
+.conatct {
+  background-image: url(./../../public/images/haker1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.titleStyle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+}
+.btnStyle {
+  background-color: var(--data-main-color) !important;
+  border: var(--data-main-color) solid 1px !important;
+}
+.btnStyle:hover {
+  background-color: transparent !important;  
+}
+.inputStyle {
+  background-color: #1a252f8f !important;
+  color: white !important;
+  box-shadow: 0 0 10px var(--data-main-color) !important;
+}
+.inputStyle::placeholder {
+  color: white;
+}

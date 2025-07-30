@@ -1,0 +1,50 @@
+
+.protofile {
+  background-color: #d7dac5;
+  background-position: center;
+  background-size: cover;
+}
+
+.title
+{
+    font-weight: 700;
+  font-size: 2.5rem;
+}
+ .layer {
+  transition: all 1s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--data-main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  opacity: 0;
+}
+
+.card{
+  text-align: center;
+}
+.card:hover .layer{
+  opacity: .7;
+}
+.layer i {
+  font-size: 6.25rem;
+}
+
+.pageLayer {
+  background-color: #d7dac58f;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.backgroung-page-image{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

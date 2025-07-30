@@ -1,0 +1,27 @@
+:root{
+  --data-main-color :  goldenrod;
+}
+:root::selection
+{
+  background-color: var(--data-main-color);
+  color: white;
+}
+
+a{
+  text-decoration: none !important;
+  color: white !important;
+}
+.active{
+
+  background-color: var(--data-main-color) !important;
+}
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mostafameligy/mostafa-meligy---friday-10-4-online--assignment-1-react--01030612419.git
+git push -u origin main
+
+
+
+

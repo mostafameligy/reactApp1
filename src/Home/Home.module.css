@@ -1,0 +1,15 @@
+
+.Home {
+  background-image: url(./../../public/images/haker2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.titleStyle{
+    font-size: 2.5rem;
+  font-weight: 700;
+}
+.imgStyle{
+  box-shadow: 0 0 20px var(--data-main-color);
+
+}
