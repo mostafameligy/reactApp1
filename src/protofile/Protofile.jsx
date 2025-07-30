@@ -2,17 +2,17 @@ import React, { useEffect, useState } from 'react'
 import Card from './../componants/card/Card'
 import StarLogo from './../componants/satrLogo/StarLogo';
 import style from './pro.module.css'
+import img1 from "./../images/protofile/1.jpeg"
+import img2 from "./../images/protofile/2.png"
+import img3 from "./../images/protofile/3.jpg"
+import img4 from "./../images/protofile/4.jpeg"
+import img5 from "./../images/protofile/5.jpg"
 
 export default function Protofile() {
     let [bgBage , setBgBage] = useState(false);
     let i = -1  ;
     const [imgLink , setImgLink] = useState([
-        "1.jpeg",
-    "2.png",
-    "3.jpg",
-    "4.jpeg",
-    "5.jpg",
-    "1.jpeg"
+        img1,img2,img3,img4,img5,img3
    ]);
     let col =  document.querySelectorAll('.protofile .col');
     let [bgColor , setBgColor] =useState([
