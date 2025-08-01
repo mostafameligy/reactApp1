@@ -2,17 +2,23 @@ import React, { useEffect, useState } from 'react'
 import Card from './../componants/card/Card'
 import StarLogo from './../componants/satrLogo/StarLogo'
 import style from './pro.module.css'
-import img1 from "./../../public/images/protofile/1.jpeg"
-import img2 from "./../../public/images/protofile/2.png"
-import img3 from "./../../public/images/protofile/3.jpg"
-import img4 from "./../../public/images/protofile/4.jpeg"
-import img5 from "./../../public/images/protofile/5.jpg"
+// import img1 from "./../../public/images/protofile/1.jpeg"
+// import img2 from "./../../public/images/protofile/2.png"
+// import img3 from "./../../public/images/protofile/3.jpg"
+// import img4 from "./../../public/images/protofile/4.jpeg"
+// import img5 from "./../../public/images/protofile/5.jpg"
 
 export default function Protofile() {
     let [bgBage , setBgBage] = useState(false);
     let i = -1  ;
-    const [imgLink , setImgLink] = useState([
-        img1,img2,img3,img4,img5,img3
+    const [imgLink , setImgLink] = useState([   
+        "./public/images/protofile/1.jpeg",
+        "./public/images/protofile/2.png",
+        "./public/images/protofile/3.jpg",
+        "./public/images/protofile/4.jpeg",
+        "./public/images/protofile/5.jpg",
+        "./public/images/protofile/2.png",
+
    ]);
     let col =  document.querySelectorAll('.protofile .col');
     let [bgColor , setBgColor] =useState([
