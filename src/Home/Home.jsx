@@ -2,7 +2,7 @@ import React from 'react'
 import StarLogo from './../componants/satrLogo/StarLogo'
 import style from './Home.module.css'
 import { help } from '../helpers/help'
-import myImage from "../images/me.jpg"
+import myImage from "./../../public/images/me.jpg"
 
 export default function Home() {
   return (

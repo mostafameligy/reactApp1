@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import Card from './../componants/card/Card'
-import StarLogo from './../componants/satrLogo/StarLogo';
+import StarLogo from './../componants/satrLogo/StarLogo'
 import style from './pro.module.css'
-import img1 from "./../images/protofile/1.jpeg"
-import img2 from "./../images/protofile/2.png"
-import img3 from "./../images/protofile/3.jpg"
-import img4 from "./../images/protofile/4.jpeg"
-import img5 from "./../images/protofile/5.jpg"
+import img1 from "./../../public/images/protofile/1.jpeg"
+import img2 from "./../../public/images/protofile/2.png"
+import img3 from "./../../public/images/protofile/3.jpg"
+import img4 from "./../../public/images/protofile/4.jpeg"
+import img5 from "./../../public/images/protofile/5.jpg"
 
 export default function Protofile() {
     let [bgBage , setBgBage] = useState(false);

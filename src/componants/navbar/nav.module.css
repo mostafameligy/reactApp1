@@ -24,10 +24,8 @@
 } */
 
 
-
-
 .nav{
-  transition: all 0.5s;
+  transition: all 1s;
 }
 .navBrandStyle{
     font-size: 2rem !important;
